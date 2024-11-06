@@ -5,14 +5,12 @@ for(let i=0; i< 16; i ++)
 {
     let newColumn = document.createElement("div");
     newColumn.classList.add("column");
-    // newColumn.style.width = 600 / 10 + "px";
     document.querySelector("#container").appendChild(newColumn);
     for(let j=0; j<16; j++)
     {
         let newRow = document.createElement("div");
         newRow.classList.add("cell-row");
         newRow.addEventListener("mouseover", colourBackground);
-        // newRow.style.height = 600 / 10 + "px";
         newColumn.appendChild(newRow);
     }
 }
