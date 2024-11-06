@@ -1,0 +1,30 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    text-align: center;
+    padding: 1rem;
+}
+
+header {
+    padding: 1rem 2rem 4rem;
+}
+
+#container {
+    max-width: 1200px;
+    margin: 0 auto;
+    border-color: black;
+    border-style: solid;
+}
+
+.column {
+    display:flex;
+}
+
+.cell-row
+{
+    background-color: white;
+    padding: 1rem 0;
+    flex: 1;
+    /* border-color: black;
+    border-style: solid; */
+}
